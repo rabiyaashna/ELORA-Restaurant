@@ -7,14 +7,6 @@ A premium, responsive restaurant website designed to showcase elegant dining, si
 
 [Visit ÉLORA Fine Dining](https://rabiyaashna.github.io/ELORA-Restaurant/)
 
-## 📌 Project Information
-
-- **Industry:** Food & Hospitality
-- **Training:** Zelvora Industry Labs
-- **Program:** 4-Week Industry Training
-- **Project:** Week 1 – Restaurant Menu Website
-- **Level:** Starter
-
 ## ✨ Features
 
 - Elegant restaurant landing page
@@ -34,26 +26,8 @@ A premium, responsive restaurant website designed to showcase elegant dining, si
 - Flexbox & CSS Grid
 - Google Maps Embed
 
-## 📂 Project Structure
-
-```text
-Week 1/
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
 ## 🚀 Run Locally
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/rabiyaashna/ELORA-Restaurant.git
-```
-
-2. Open the project folder.
-3. Open `index.html` in your browser.
 
 ## 👩‍💻 Developed By
 
