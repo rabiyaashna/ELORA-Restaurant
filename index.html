@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ÉLORA Fine Dining – Experience exceptional cuisine, elegant ambience and unforgettable dining.">
+    <title>ÉLORA | Fine Dining</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <a href="#" class="logo">ÉLORA<span>.</span></a>
+
+    <nav class="navbar" id="navbar">
+        <a href="#home">Home</a>
+        <a href="#about">Our Story</a>
+        <a href="#menu">Menu</a>
+        <a href="#reservation">Reservations</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#reservation" class="nav-btn">Book a Table</a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+</header>
+
+<main>
+<section class="hero" id="home">
+    <div class="hero-content">
+        <p class="eyebrow">AN EXPERIENCE BEYOND DINING</p>
+        <h1>Where Taste Meets <span>Elegance.</span></h1>
+        <p>Discover exceptional flavours, timeless elegance and moments worth remembering.</p>
+        <div class="hero-buttons">
+            <a href="#menu" class="btn primary-btn">Explore Our Menu</a>
+            <a href="#reservation" class="btn outline-btn">Reserve a Table</a>
+        </div>
+    </div>
+    <div class="hero-bottom">FINE DINING · EST. 2026</div>
+</section>
+
+<section class="about section" id="about">
+    <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1000" alt="Elegant fine dining restaurant interior">
+    </div>
+    <div class="about-content">
+        <p class="eyebrow">OUR STORY</p>
+        <h2>A Celebration of <span>Fine Taste</span></h2>
+        <p>At ÉLORA, dining is more than a meal. It is an experience crafted with passion, creativity and attention to every detail.</p>
+        <p>From carefully selected ingredients to beautifully presented dishes, we bring together exceptional flavours and sophisticated hospitality.</p>
+        <a href="#menu" class="text-link">Discover Our Menu →</a>
+    </div>
+</section>
+
+<section class="features">
+    <div class="feature">
+        <span>✦</span>
+        <h3>Premium Ingredients</h3>
+        <p>Fresh, carefully selected ingredients.</p>
+    </div>
+    <div class="feature">
+        <span>♨</span>
+        <h3>Expert Chefs</h3>
+        <p>Crafted with creativity and passion.</p>
+    </div>
+    <div class="feature">
+        <span>❋</span>
+        <h3>Elegant Ambience</h3>
+        <p>A setting made for memorable moments.</p>
+    </div>
+</section>
+
+<section class="menu-section section" id="menu">
+    <div class="section-heading">
+        <p class="eyebrow">A TASTE OF ÉLORA</p>
+        <h2>Our <span>Signature Menu</span></h2>
+        <p>Explore a selection of dishes prepared to delight your senses.</p>
+    </div>
+
+    <div class="menu-filters">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="starters">Starters</button>
+        <button class="filter-btn" data-category="main">Main Course</button>
+        <button class="filter-btn" data-category="desserts">Desserts</button>
+        <button class="filter-btn" data-category="drinks">Drinks</button>
+    </div>
+
+    <div class="menu-grid" id="menuGrid">
+
+        <article class="menu-card" data-category="starters">
+            <img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=700" alt="Creamy tomato soup" loading="lazy">
+            <div class="menu-info">
+                <div class="dish-title"><h3>Roasted Tomato Soup</h3><span>₹249</span></div>
+                <p>Slow-roasted tomatoes, fresh herbs and cream.</p>
+                <small>STARTER</small>
+            </div>
+        </article>
+
+        <article class="menu-card" data-category="starters">
+            <img src="https://images.unsplash.com/photo-1541529086526-db283c563270?w=700" alt="Fresh garden salad" loading="lazy">
+            <div class="menu-info">
+                <div class="dish-title"><h3>Garden Fresh Salad</h3><span>₹299</span></div>
+                <p>Seasonal greens, cherry tomatoes and house dressing.</p>
+                <small>STARTER</small>
+            </div>
+        </article>
+
+        <article class="menu-card" data-category="main">
+            <img src="https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=700" alt="Indian gourmet curry" loading="lazy">
+            <div class="menu-info">
+                <div class="dish-title"><h3>Royal Paneer Curry</h3><span>₹449</span></div>
+                <p>Rich, creamy curry with aromatic Indian spices.</p>
+                <small>MAIN COURSE</small>
+            </div>
+        </article>
+
+        <article class="menu-card" data-category="main">
+            <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=700" alt="Gourmet grilled dish" loading="lazy">
+            <div class="menu-info">
+                <div class="dish-title"><h3>Herb Grilled Platter</h3><span>₹599</span></div>
+                <p>Grilled seasonal vegetables with signature herbs.</p>
+                <small>MAIN COURSE</small>
+            </div>
+        </article>
+
+        <article class="menu-card" data-category="main">
+            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?w=700" alt="Creamy pasta" loading="lazy">
+            <div class="menu-info">
+                <div class="dish-title"><h3>Alfredo Signature Pasta</h3><span>₹499</span></div>
+                <p>Silky parmesan cream sauce with perfectly cooked pasta.</p>
+                <small>MAIN COURSE</small>
+            </div>
+        </article>
+
+        <article class="menu-card" data-category="desserts">
+            <img src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=700" alt="Chocolate cake" loading="lazy">
+            <div class="menu-info">
+                <div class="dish-title"><h3>Chocolate Decadence</h3><span>₹279</span></div>
+                <p>Rich chocolate cake with a smooth ganache centre.</p>
+                <small>DESSERT</small>
+            </div>
+        </article>
+
+        <article class="menu-card" data-category="desserts">
+            <img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?w=700" alt="Strawberry dessert" loading="lazy">
+            <div class="menu-info">
+                <div class="dish-title"><h3>Berry Cream Delight</h3><span>₹249</span></div>
+                <p>Fresh berries layered with delicate vanilla cream.</p>
+                <small>DESSERT</small>
+            </div>
+        </article>
+
+        <article class="menu-card" data-category="drinks">
+            <img src="https://images.unsplash.com/photo-1513558161293-cdaf765edfd4?w=700" alt="Fresh fruit mocktail" loading="lazy">
+            <div class="menu-info">
+                <div class="dish-title"><h3>Sunset Mocktail</h3><span>₹199</span></div>
+                <p>A refreshing blend of citrus and tropical fruits.</p>
+                <small>BEVERAGE</small>
+            </div>
+        </article>
+
+        <article class="menu-card" data-category="drinks">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?w=700" alt="Iced coffee" loading="lazy">
+            <div class="menu-info">
+                <div class="dish-title"><h3>Classic Iced Coffee</h3><span>₹179</span></div>
+                <p>Freshly brewed coffee served chilled.</p>
+                <small>BEVERAGE</small>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<section class="reservation section" id="reservation">
+    <div class="reservation-content">
+        <p class="eyebrow">YOUR TABLE AWAITS</p>
+        <h2>Make It a <span>Special Evening</span></h2>
+        <p>Reserve your place and let us take care of the experience.</p>
+
+        <form id="reservationForm">
+            <div class="form-row">
+                <input type="text" id="guestName" placeholder="Your Name" required>
+                <input type="email" id="guestEmail" placeholder="Email Address" required>
+            </div>
+            <div class="form-row">
+                <input type="date" id="bookingDate" required>
+                <select id="guestCount" required>
+                    <option value="">Number of Guests</option>
+                    <option value="1">1 Guest</option>
+                    <option value="2">2 Guests</option>
+                    <option value="3">3 Guests</option>
+                    <option value="4">4 Guests</option>
+                    <option value="5">5 Guests</option>
+                    <option value="6">6 Guests</option>
+                    <option value="7+">7+ Guests</option>
+                </select>
+            </div>
+            <select id="bookingTime" required>
+                <option value="">Select Time</option>
+                <option>12:00 PM</option>
+                <option>1:00 PM</option>
+                <option>2:00 PM</option>
+                <option>6:00 PM</option>
+                <option>7:00 PM</option>
+                <option>8:00 PM</option>
+                <option>9:00 PM</option>
+            </select>
+            <textarea id="specialRequest" placeholder="Special requests (optional)" rows="3"></textarea>
+            <button type="submit" class="btn primary-btn">Confirm Reservation</button>
+            <p id="formMessage" aria-live="polite"></p>
+        </form>
+    </div>
+</section>
+
+<section class="contact section" id="contact">
+    <div class="section-heading">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Visit <span>ÉLORA</span></h2>
+        <p>We look forward to welcoming you.</p>
+    </div>
+
+    <div class="contact-grid">
+        <div class="contact-details">
+            <div>
+                <h3>Our Location</h3>
+                <p>Warangal, Telangana, India</p>
+            </div>
+            <div>
+                <h3>Opening Hours</h3>
+                <p>Monday – Sunday</p>
+                <p>12:00 PM – 10:00 PM</p>
+            </div>
+            <div>
+                <h3>Contact</h3>
+                <p>Email: hello@elorafinedining.com</p>
+                <p>Phone: +91 98765 43210</p>
+            </div>
+        </div>
+
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps?q=Warangal,Telangana,India&output=embed"
+                width="100%"
+                height="350"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Map showing Warangal">
+            </iframe>
+        </div>
+    </div>
+</section>
+</main>
+
+<footer class="footer">
+    <a href="#" class="logo">ÉLORA<span>.</span></a>
+    <p>Where every meal becomes a memory.</p>
+    <p class="copyright">© 2026 ÉLORA Fine Dining. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
